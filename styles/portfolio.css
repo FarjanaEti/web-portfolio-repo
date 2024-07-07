@@ -140,11 +140,11 @@ footer{
      width: 50%;
 }
 footer input[type="text"], footer input[type="email"], footer input[type="textare"]{
-     height:50px ;
+     height:64px ;
      border-radius:5px ;
      background-color: white;
      display: block;
-     width: 300px;
+     width: 100%;
      padding: 10px 20px;
      margin-bottom: 24px;
      border: none;
