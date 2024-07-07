@@ -1,0 +1,99 @@
+/* nav design */
+.open-sans-nav {
+  font-family: "Open Sans", sans-serif;
+ font-weight:bolder;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;   
+  }
+ /* word color */
+ .nav-color{
+      color:#FD6E0A;                        
+ }
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin: 5px 100px;                           
+}
+nav ul li{
+      list-style: none; 
+      font-size: 10px;                    
+}
+nav li a{
+        text-decoration: none; 
+        margin-right: 20px;                           
+}
+nav ul{
+     display: flex;  
+     align-items: center;                       
+}
+.dark-2
+{
+  color: #474747;                            
+}
+.btn-all{
+       font-size: 20px;
+       font-weight: bold;   
+       border-radius: 5px;
+       background-color: #FD6E0A;
+       color: white;
+       padding: 5px 10px ;
+       border: none;
+}
+.head{
+     background-image: url(../images/developer.png),url(../images/header_bg.png);
+     background-repeat: no-repeat;   
+     background-position: top left,bottom right;                      
+}
+.banner{
+     display: flex; 
+     justify-content: space-between;
+     margin: 0 200px;
+}
+.banner-content{
+     max-width: 580px;                         
+}
+.bnr-img{
+      width: 585px;                        
+}
+.bnr-style{
+        font-size: 30px;
+        font-family: 700px;                      
+}
+.bnr-t-style{
+         font-size: 60px;
+         font-weight: bold;                     
+}
+.sec-title-all{
+     font-size: 35px;
+     font-weight: bold;
+     color: #181818;
+}
+.para-all{
+     font-size: 18px;
+     font-weight: normal;
+     color: #757575;     
+}
+.about{
+     
+}
+.about{
+     background-color: #FFF8F3; 
+     border-radius: 10px;
+     padding: 131px 150px;
+     text-align: center;
+     margin-top: 130px;
+}
+main{   
+     max-width: 1140px;   
+     margin: 0 auto;   
+}
+.about-items
+{
+     display: flex;
+     justify-content: space-around;
+}
+.item-value{
+     font-weight: bold;
+}
